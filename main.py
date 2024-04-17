@@ -16,8 +16,6 @@ def addSongToSetList():
 addSongToSetListButton = Button(root, text = "Add New Song", command = addSongToSetList)
 
 # Add elements to the window
-#userSetList.pack(fill = BOTH, expand = True)
-#addSongToSetListButton.pack()
 userSetList.grid(row = 0, column = 0, columnspan = 3)
 addSongToSetListButton.grid(row = 1, column = 0)
 

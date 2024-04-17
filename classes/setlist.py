@@ -32,7 +32,7 @@ class SetList(ttk.Treeview):
 			selectedText = selectedValues.get('text')						#	- retrieve the text of that region
 		else:																# else (if the clicked region is anywhere other than the row header)
 			try:
-				selectedText = selectedValues.get('values')[columnIndex]	#	- retrieve the text of that region from the list of values in that row entry
+				selectedText = selected`Values.get('values')[columnIndex]	#	- retrieve the text of that region from the list of values in that row entry
 			except:
 				return														# in the event that a cell is empty, abort the function
 		
